@@ -8,7 +8,7 @@ To use this Dockerfile, use the following commands:
 cd {Your_Folder}
 git clone https://github.com/Flodu31/nestgraph.git
 docker build -t nestgraph .
-docker run -d -P -e ENV_NEST_USER="your_nest_email_address" -e ENV_NEST_PASSWORD="your_nest_password" --name nestgraph nestgraph
+docker run -d -P -e ENV_NEST_USER='your_nest_email_address' -e ENV_NEST_PASSWORD='your_nest_password' --name nestgraph nestgraph
 ```
 
 ## Source
